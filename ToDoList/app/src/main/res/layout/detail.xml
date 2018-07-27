@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_details"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_details"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:hint="@string/hint_title"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:id="@+id/txt_head"
+        android:layout_width="362dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimary"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_details" />
+
+    <Button
+
+        android:id="@+id/btn_save"
+        android:layout_width="57dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#b53f51b5"
+        android:text="@string/btn_save"
+        android:textColor="#d6fdf9f9"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toEndOf="@+id/txt_details"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:hint="@string/hint_description"
+        android:id="@+id/editText"
+        android:layout_width="364dp"
+        android:layout_height="409dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_head"
+        app:layout_constraintVertical_bias="0.166" />
+</android.support.constraint.ConstraintLayout>

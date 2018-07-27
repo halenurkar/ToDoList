@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="txt_details">Ayrıntılar</string>
+    <string name="btn_save">"Kaydet</string>
+    <string name="mainTitle">TO DO LİST</string>
+    <string name="btn_new">Yeni</string>
+    <string name="hint_title">Başlık</string>
+    <string name="hint_description">Açıklama</string>
+</resources>
